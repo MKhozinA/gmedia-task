@@ -1,9 +1,14 @@
 <template>
-  <footer class="bg-[#028391] text-white">
-    <div class="container mx-auto px-4 py-12 flex justify-between items-start">
+  <footer class=" from-[#028391] to-[#02A4A1] text-white bg-gradient-to-br relative overflow-hidden">
+    <img
+      src="/footer/footer-bg.png"
+      alt="author"
+      class="absolute object-contain rounded-lg right-0 bottom-0 opacity-50 translate-x-[80px] translate-y-[80px]"
+    />
+    <div class="container mx-auto p-16 flex justify-between items-start">
       <!-- Left section -->
       <div class="flex flex-col gap-12 w-full">
-        <div class="flex flex-row gap-12">
+        <div class="flex flex-row gap-12 items-start">
           <!-- Column 1: Logo with text beside it -->
           <div class="flex-1 flex items-center">
             <img src="/footer/logo.png" alt="Company Logo" class="h-16 w-auto mr-4" />
@@ -12,13 +17,13 @@
 
           <!-- Column 2: Image -->
           <div class="flex-1 flex items-center">
-            <img src="/footer/logo-2.png" alt="Some Image" class="h-16 w-auto" />
+            <img src="/footer/logo-2.png" alt="logo" class="h-16 w-auto"></img>
           </div>
 
           <!-- Column 3: Company information -->
-          <div class="flex-1">
+          <div class="flex-1 flex flex-col gap-6">
             <h3 class="font-semibold text-lg">Company</h3>
-            <ul class="text-white">
+            <ul class="text-white flex flex-col gap-6">
               <li>About Us</li>
               <li>1 on 1 Session</li>
               <li>Webinar</li>
@@ -26,9 +31,9 @@
           </div>
 
           <!-- Column 4: Learn & Community -->
-          <div class="flex-1">
+          <div class="flex-1 flex flex-col gap-6">
             <h3 class="font-semibold text-lg">Learn & Community</h3>
-            <ul class="text-white">
+            <ul class="text-white flex flex-col gap-6">
               <li>FAQ</li>
               <li>Blog</li>
             </ul>
@@ -96,7 +101,11 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+    <div class="w-[1280] border-[1.5px] border-white mx-16 mb-4">
+
+    </div>
+
+    <div class="relative container mx-auto py-6 flex justify-between items-center px-16">
       <!-- Bottom section -->
       <p class="text-sm">© 2024 Deconvers. Member of GMEDIA - PT Media Sarana Data.</p>
       <div class="flex space-x-6">
