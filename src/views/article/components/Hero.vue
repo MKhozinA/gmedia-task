@@ -1,6 +1,11 @@
 <template>
   <section class="relative  text-white py-16" style="background: url('/hero/hero-bg.svg') no-repeat center center/cover;">
     <!-- Wrapper -->
+    <img
+      src="/hero/bg-hero.png"
+      alt="author"
+      class="absolute w-[360px] h-[244px] object-contain rounded-lg inset-0 -translate-x-[96px] -translate-y-[12px] opacity-50"
+    />
     <div class="flex flex-col items-center justify-center gap-8 w-full px-6 mx-auto">
       <!-- Title & Subtitle -->
       <div

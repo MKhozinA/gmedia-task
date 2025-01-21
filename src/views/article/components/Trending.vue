@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-gray-50">
+  <section class="py-16">
     <div class="container mx-auto px-16 mb-10">
       <h2 class="font-bevietnampro font-semibold text-4xl text-[#028391]">Trending Articles</h2>
     </div>

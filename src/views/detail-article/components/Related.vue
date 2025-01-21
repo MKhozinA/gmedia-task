@@ -2,7 +2,7 @@
   <section class="py-16 m-16">
     <!-- Section Title -->
     <div class="container mx-auto px-6 mb-8">
-      <h2 class="font-bold text-4xl text-[#028391]">Related Articles</h2>
+      <h2 class="font-bold text-4xl text-black">Related Articles</h2>
     </div>
 
     <!-- Card Layout -->
@@ -21,7 +21,7 @@
             <span class="text-black text-sm">{{ article.date }}</span>
           </div>
 
-          <h3 class="font-semibold text-2xl text-black mb-2">{{ article.title }}</h3>
+          <h3 class="font-semibold text-2xl text-black mb-2 truncate">{{ article.title }}</h3>
           <p class="text-base text-black mb-2 leading-relaxed">{{ article.description }}</p>
 
           <div class="flex items-center mt-4">
